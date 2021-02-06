@@ -1,0 +1,56 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.io.*; 
+import java.util.Scanner; 
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	int num; 
+	int m=0;
+  
+        // Input the integer 
+        System.out.println("Enter the integer: "); 
+  
+        // Create Scanner object 
+        Scanner s = new Scanner(System.in); 
+        
+  
+        // Read the next integer from the screen 
+        num = s.nextInt(); 
+        int temp=num;
+        if(num!=0)
+        {
+             for(int t=0;j<num;j++){
+                  for(int y=0;k<num;k++){
+                      system.out.print(num+" ");
+                  }
+                  System.out.print("\n");
+             }
+        
+          
+        for(int j=0;j<num;j++)
+       
+        {
+            temp=num;
+            
+            for(int k=0;k<temp;k++)
+            {
+            System.out.print(temp+" ");
+            }
+            temp=tem-1;
+            
+        System.out.print("\n");
+		
+	    }
+           
+  
+        }
+}
+}
